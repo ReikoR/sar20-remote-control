@@ -1,0 +1,15 @@
+= SAR20 Remote Control
+
+== Client - Server protocol
+
+All values are optional.
+
+[source,json]
+----
+{
+  "speeds": [0, 0, 0],
+  "x": 0,
+  "y": 0,
+  "w": 0
+}
+----
