@@ -14,8 +14,8 @@ function startSendInterval() {
   sendInterval = setInterval(() => {
     // wsSend({ x: 0, y: 0.05, w: 0 });
     const { x, y, w } = state.input;
-    wsSend({ x, y: -y, w });
-  }, 200);
+    wsSend({ x, y: -y, w: -w });
+  }, 100);
 }
 
 function stopSendInterval() {
