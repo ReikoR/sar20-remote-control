@@ -7,8 +7,8 @@ const maxVelocityInPixels = controlRadius;
 const maxRotationalVelocityInPixels = controlRadius;
 
 export const state = {
-  maxVelocity: 0.1, // m/s
-  maxRotationalVelocity: 1, // rad/s
+  maxVelocity: 1, // m/s
+  maxRotationalVelocity: 3, // rad/s
   input: { x: 0, y: 0, w: 0 },
   touches: {},
 };
